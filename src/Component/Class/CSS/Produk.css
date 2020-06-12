@@ -1,5 +1,5 @@
 .box-stock {
-    width: 300px;
+    width: 400px;
     display: inline-block;
     height: auto;
     border: 1px solid gray;
@@ -8,6 +8,6 @@
 }
 
 .box-stock img{
-    width: 300px;
+    width: 400px;
     height: 200px;
 }

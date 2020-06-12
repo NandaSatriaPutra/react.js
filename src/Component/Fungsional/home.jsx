@@ -5,21 +5,9 @@ import Produk from '../Class/produk';
 
 const Home = () => {
     return <div>
-    {<Produk/> /*<Blog 
-        tanggal="02 Juni 2020"
-        judul="Teknologi Blockchain"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic"
-        />
-        <Blog 
-        tanggal="03 Juni 2020"
-        judul="Teknologi Internet of Things"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic"
-        />
-        <Blog 
-        tanggal="04 Juni 2020"
-        judul="Design Pattern Laravel"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic"
-        />*/}
+    <Produk nama="Aple iPhone 11" stock="10" harga="15.000"/> 
+    <Produk nama="Aple iPhone 11" stock="10" harga="15.000"/> 
+    <Produk nama="Aple iPhone 11" stock="10" harga="15.000"/> 
     </div>
 }
 
