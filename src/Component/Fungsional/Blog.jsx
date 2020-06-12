@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/Blog.css'
+import './CSS/Blog.css'
 
 const Blog = (props) => {
     return <div className="blog-wrap">
