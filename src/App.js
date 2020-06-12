@@ -1,7 +1,5 @@
 import React from 'react';
-import Home from './Component/Fungsional/home';
-import Beranda from './Component/Class/beranda';
-import Parent from './Component/Class/Parent';
+import BootstrapComp from './Component/Class/BootstrapComp';
 
 //import './App.css';
 function App() {
