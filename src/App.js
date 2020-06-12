@@ -1,11 +1,17 @@
 import React from 'react';
 import NavbarComp from './Component/Fungsional/NavbarComp';
-//import './App.css';
-function App() {
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import AboutComp from './Component/Fungsional/AboutComp';
+import Homepage from './Component/Fungsional/Homepage';
+const App = () => {
   return (
-    <div className="App">
-      <NavbarComp/>
-    </div>
+<BrowserRouter>
+    <NavbarComp/>
+    <Switch>
+      <Route exact path="/" component={Homepage}/>
+      <Route exact path="/About" component={AboutComp}/>
+    </Switch>
+</BrowserRouter>
   );
 }
 
